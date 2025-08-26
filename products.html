@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Products — Al Sufi Frozen Food</title>
+  
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html">
+      <span class="logo-mark">ASF</span>
+      <span class="logo-text">Al Sufi Frozen Food</span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+  <main class="container page">
+    <h1>Our Chicken Products</h1>
+    <p>Click any item to view quick prep tips. Replace images in <code>assets/images/</code> with your own.</p>
+
+    <div class="product-grid">
+      <div class="product" id="nuggets">
+        <img src="assets/images/chicken-nuggets.jpg" alt="Chicken Nuggets">
+        <h3>Chicken Nuggets</h3>
+        <p>Crispy coated, tender core; fry or air-fry from frozen.</p>
+        <button class="btn btn-outline" data-prep="Preheat to 200°C. Air-fry 10–12 min, shake midway. Serve hot.">Prep Tips</button>
+      </div>
+
+      <div class="product" id="breast">
+        <img src="assets/images/chicken-breast.jpg" alt="Chicken Breast Fillets">
+        <h3>Breast Fillets</h3>
+        <p>Boneless, skinless fillets ideal for grills and salads.</p>
+        <button class="btn btn-outline" data-prep="Thaw in fridge. Season. Grill 6–7 min per side until juices run clear.">Prep Tips</button>
+      </div>
+
+      <div class="product" id="wings">
+        <img src="assets/images/chicken-wings.jpg" alt="Chicken Wings">
+        <h3>Chicken Wings</h3>
+        <p>Party favorite—toss with buffalo, BBQ, or peri-peri.</p>
+        <button class="btn btn-outline" data-prep="Bake at 220°C for 35–40 min; flip once. Finish with sauce.">Prep Tips</button>
+      </div>
+
+      <div class="product" id="drumsticks">
+        <img src="assets/images/chicken-drumsticks.jpg" alt="Chicken Drumsticks">
+        <h3>Chicken Drumsticks</h3>
+        <p>Juicy and flavorful—perfect for roasting.</p>
+        <button class="btn btn-outline" data-prep="Marinate 30 min. Roast at 200°C for ~35 min until done.">Prep Tips</button>
+      </div>
+
+      <div class="product" id="kebabs">
+        <img src="assets/images/chicken-kebab.jpg" alt="Chicken Seekh Kebabs">
+        <h3>Seekh Kebabs</h3>
+        <p>Spiced and shaped—pan-fry or grill straight from frozen.</p>
+        <button class="btn btn-outline" data-prep="Brush oil. Pan-fry 8–10 min turning often until browned.">Prep Tips</button>
+      </div>
+    </div>
+  </main>
+
+  <div class="modal" id="prepModal" aria-hidden="true" role="dialog">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <h3>Quick Prep Tips</h3>
+      <p id="prepText">...</p>
+    </div>
+  </div>
+
+  
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Al Sufi Frozen Food</h4>
+      <p>Premium frozen chicken items—quality you can trust.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul class="list-plain">
+        <li><a href="products.html">Our Products</a></li>
+        <li><a href="recipes.html">Recipes & Tips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="list-plain">
+        <li><a href="mailto:info@alsufi-frozen.com">info@alsufi-frozen.com</a></li>
+        <li>+91 90000 00000</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2025 Al Sufi Frozen Food. All rights reserved.</p>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
